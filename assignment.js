@@ -48,15 +48,15 @@ console.log("Total Mile:", Miles);
         let bricks;
         if(building<=10)
         {
-            bricks = building * 15 * 1000;   //15 tola building er jonne bricks 
+            bricks = building * 15 * 1000;   
         }
         else if(building>=11 && building<=20)
         {
-            bricks =building * 12 * 1000;   //15 tola building er jonne bricks 
+            bricks =building * 12 * 1000;   
         }
         else if(building >20)
         {
-            bricks =building * 10 * 1000;  //15 tola building er jonne bricks 
+            bricks =building * 10 * 1000;  
         }
         
         return bricks;

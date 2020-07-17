@@ -16,7 +16,7 @@
     
     return  miles;
 }
-var Miles=feetToMile(10560);
+let Miles=feetToMile(10560);
 console.log("Total Mile:", Miles);
 
  
